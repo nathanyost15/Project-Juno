@@ -1,0 +1,5 @@
+::To convert from World Coordinates to Screen Coordinates
+Camera.main.WorldToScreenPoint(Vector); // Returns a vector that corresponds to the screen/pixel coordinate plane.
+
+::To convert from Screen Coordinates to World Coordinates
+Camera.main.ScreenToWorldPoint(Vector); // Returns a vector that corresponds to the world coordinate plane.
